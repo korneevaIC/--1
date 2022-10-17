@@ -11,10 +11,10 @@ namespace Критерии_оценивания
         static void Main(string[] args)
         {
             int a = Int32.Parse(Console.ReadLine());
-            string res = a >= 90 && a <= 100 ? "Отлично" : a >= 70 ? "Хорошо" :
-                a >= 50 ? "Удовлетворительно" : "Неудовлетворительно";
+            string res = a >= 80 && a <= 100 ? "Отлично" : a >= 60 ? "Хорошо" :
+                a >= 40 ? "Удовлетворительно" : "Неудовлетворительно";
             Console.WriteLine(res);
             Console.ReadLine();
         }
-    }
+    } 
 }
