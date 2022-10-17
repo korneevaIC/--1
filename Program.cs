@@ -16,5 +16,5 @@ namespace Критерии_оценивания
             Console.WriteLine(res);
             Console.ReadLine();
         }
-    }
+    } привет
 }
